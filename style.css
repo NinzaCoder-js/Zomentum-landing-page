@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+span, a, label {
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.navbar{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 26px auto;
+    align-items: center;
+    padding: 0 69px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li a{
+    padding: 12px 23px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #000C2D;
+    transition: all 0.4s;
+}
+
+ul li a:hover{
+    border: 1px solid blue;
+    color: blue;
+}
+
+/* navbar has finished */
+
+/* header has started */
+
+header{
+    text-align: center;
+    background-image: url('./images/headerbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #00ff8410;
+}
+
+.part{
+    position: absolute;
+    top: 65%;
+    left: -30px;
+}
+
+.right-part{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 60%;
+}
+
+header h1{
+    padding-top: 114px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    color: white;
+}
+    
+header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 8px;
+    margin-bottom: 33px;
+    color: white;
+}
+
+header a{
+    padding: 16px 25px;
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+    margin-bottom: 217px;
+}
+
+header a:hover{
+    background-color: rgb(55, 55, 55);
+    box-shadow: 1px 3px 10px 5px rgba(0, 14, 205, 0.58);
+   
+}
+
+
+/* main has started */
+
+#list {
+    position: relative;
+    text-align: center;
+    background-color: #00ff8410;
+}
+
+.right-triangle{
+    position: absolute;
+    left: 30px;
+    top: 55%;
+}
+
+.left-triangle{
+    position: absolute;
+    right: 40px;
+    top: 10%;
+}
+
+#list h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 148px;
+    margin-bottom: 111px;
+}
+
+.box{
+    width: 30%;
+}
+
+.box img{
+    margin-bottom: 24px;
+}
+
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #000C2D;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 170px;
+}
+
+.txt{
+    width: 40%;
+}
+
+.txt h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37px;
+    
+}
+
+.txt p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #000C2D;
+    margin-top: 24px;
+}
+
+.txt a{
+    color: #2F70FE;
+}
+
+/* all main sections have finished */
+
+/* footer has started */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.foo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57px;
+}
+
+.foo-links{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.foo-links h4{
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+}
+
+.foo-links a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: white;
+    padding: 5px;
+    transition: all 0.2s;
+
+}
+
+.foo-links a:hover{
+    color: red;
+}
+
+.foo-end{
+    display: flex;
+    align-items: center;
+    gap: 435px;
+    padding-bottom: 61px;
+}
